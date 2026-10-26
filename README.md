@@ -5,6 +5,8 @@
 [![Test Suite: 100% Passed](https://img.shields.io/badge/Tests-7%2F7_Passing-brightgreen?style=for-the-badge)](test_bin_check.py)
 [![TikTok Ads Credit: Up to $6,000 Match](https://img.shields.io/badge/TikTok_Ads_Credit-Up_To_$6,000_Match-25f4ee?style=for-the-badge&logo=tiktok&logoColor=black)](https://adgrowth-lab.github.io/)
 [![Official Partner Gateway](https://img.shields.io/badge/Official_Route-Direct_TikTok_Partner-fe2c55?style=for-the-badge&logo=tiktok&logoColor=white)](https://getstartedtiktok.partnerlinks.io/apmgdhnv6eng)
+[![Latest Release](https://img.shields.io/badge/Release-v2026.1.0-blue?style=for-the-badge&logo=github)](https://github.com/adgrowth-lab/tiktok-vcc-bin-database/releases)
+[![Resolved Cases](https://img.shields.io/badge/Resolved_Cases-4_Verified_Q&A-brightgreen?style=for-the-badge&logo=github)](https://github.com/adgrowth-lab/tiktok-vcc-bin-database/issues?q=is%3Aissue+is%3Aclosed)
 [![Master Field Guide](https://img.shields.io/badge/Ecosystem-TikTok_Troubleshooting_Suite-orange?style=for-the-badge)](https://github.com/adgrowth-lab/tiktok-ads-troubleshooting)
 
 > **Empirical pass rates, risk ratings, and 3DS challenge compatibility for 16 major Virtual Credit Card (VCC) issuers on TikTok Ads Manager.**  
@@ -154,6 +156,19 @@ Mapping real Google advertiser billing search queries directly to VCC BIN surviv
 | **`tiktok ads stripe issuing 3ds`** | Moderate (Developer / Media Buyer) | Custom API cards failing 3D-Secure automated challenge | Set up Stripe Treasury commercial debit with webhook auto-confirmation enabled |
 | **`tiktok agency ad account vs personal account`** | High (Strategy / Comparison) | Personal accounts get random bans and $50 limits; agency accounts get whitelisted lines | Agency lines have zero top-up markup, no spend limit, and up to $6,000 ad credit match |
 | **`tiktok ads payment discrepancy appeal`** | High (Account Recovery) | Automated billing hold due to mismatched cardholder name and Business Center | Submit [`02-payment-discrepancy-card-verification.md`](https://github.com/adgrowth-lab/tiktok-ads-appeal-kit) with bank proof |
+
+---
+
+## 💬 Solved Payment Cases & Community Q&A Threads
+
+Real advertiser payment method failures and billing challenges resolved using this database:
+
+| Solved Case / Discussion Thread | Problem Area | Verified Fix & Issuer Recommendation | Direct Q&A Link |
+| :--- | :--- | :--- | :--- |
+| **`[Benchmark] Best virtual credit card (VCC) for TikTok Ads in 2026: 16 issuers tested for 3DS pass rate and risk rating`** | VCC Issuer Ranking | Mercury (96.5%) and Relay (95.2%) ranked top tier; avoid low-trust non-3DS issuers. | [View Solution #1](https://github.com/adgrowth-lab/tiktok-vcc-bin-database/issues/1) |
+| **`[Troubleshooting] TikTok Ads payment method declined: Top 5 causes and how to fix AVS billing zip code mismatch`** | Card Decline Errors | Resolved pre-auth hold failures by maintaining >$50 liquidity and matching corporate AVS zip. | [View Solution #2](https://github.com/adgrowth-lab/tiktok-vcc-bin-database/issues/2) |
+| **`[SOP] How to bypass the TikTok Ads $50 daily spend limit using agency whitelisted lines`** | Spend Cap Bypass | Upgraded to agency whitelisted line with no daily spend limit and up to $6,000 ad credit match. | [View Solution #3](https://github.com/adgrowth-lab/tiktok-vcc-bin-database/issues/3) |
+| **`[Resolved] Mercury bank debit card declined on TikTok Ads Manager: Setting up AVS and 3DS authorization`** | Bank Setup Checklist | Aligned suite/zip address in billing profile and approved in-app 3DS notification within 90s. | [View Solution #4](https://github.com/adgrowth-lab/tiktok-vcc-bin-database/issues/4) |
 
 ---
 
